@@ -13,6 +13,8 @@ angular.module('yeomanAngularApp')
       'item1','item2','item4'
     ];
 
+  // this is the commect done by bijender. this is the for the testing
+  
     $scope.addTodo = function () {
       $scope.todos.push($scope.todo);
       $scope.todo = '';
