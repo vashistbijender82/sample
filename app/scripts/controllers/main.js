@@ -13,11 +13,14 @@ angular.module('yeomanAngularApp')
       'item1','item2','item4'
     ];
 
+    // this is my changes for the local
+    //one more changes
+    
     $scope.addTodo = function () {
       $scope.todos.push($scope.todo);
       $scope.todo = '';
     };
-    
+
     $scope.removeTodo = function(index){
     	$scope.todos.splice(index,1);
     }
