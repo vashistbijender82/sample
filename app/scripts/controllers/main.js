@@ -20,6 +20,7 @@ angular.module('yeomanAngularApp')
 
   // this is the commect done by bijender. this is the for the testing
   
+  // this is the final commect in this file.
 
     $scope.addTodo = function () {
       $scope.todos.push($scope.todo);
