@@ -13,7 +13,7 @@ angular.module('yeomanAngularApp')
       'item1','item2','item4'
     ];
 
-
+    // this is the main controller
 
     $scope.addTodo = function () {
       $scope.todos.push($scope.todo);
